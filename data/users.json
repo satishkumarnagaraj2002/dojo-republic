@@ -132,5 +132,49 @@
     "isApproved": true,
     "createdAt": "2026-02-10T07:42:42.291Z",
     "updatedAt": "2026-02-10T07:42:42.291Z"
+  },
+  {
+    "id": "player-9",
+    "email": "aiko.tanaka@demo.com",
+    "password": "$2b$10$hizciMS.FriTAQTyGXKsY.thnNduYyTluscG1spNStnBXOGU5EjmS",
+    "name": "Aiko Tanaka",
+    "role": "player",
+    "phoneNumber": "+1 (555) 222-0009",
+    "isApproved": true,
+    "createdAt": "2026-02-10T07:42:42.291Z",
+    "updatedAt": "2026-02-10T07:42:42.291Z"
+  },
+  {
+    "id": "player-10",
+    "email": "jordan.brooks@demo.com",
+    "password": "$2b$10$hizciMS.FriTAQTyGXKsY.thnNduYyTluscG1spNStnBXOGU5EjmS",
+    "name": "Jordan Brooks",
+    "role": "player",
+    "phoneNumber": "+1 (555) 222-0010",
+    "isApproved": true,
+    "createdAt": "2026-02-10T07:42:42.291Z",
+    "updatedAt": "2026-02-10T07:42:42.291Z"
+  },
+  {
+    "id": "player-11",
+    "email": "priya.nair@demo.com",
+    "password": "$2b$10$hizciMS.FriTAQTyGXKsY.thnNduYyTluscG1spNStnBXOGU5EjmS",
+    "name": "Priya Nair",
+    "role": "player",
+    "phoneNumber": "+1 (555) 222-0011",
+    "isApproved": true,
+    "createdAt": "2026-02-10T07:42:42.291Z",
+    "updatedAt": "2026-02-10T07:42:42.291Z"
+  },
+  {
+    "id": "player-12",
+    "email": "leo.moretti@demo.com",
+    "password": "$2b$10$hizciMS.FriTAQTyGXKsY.thnNduYyTluscG1spNStnBXOGU5EjmS",
+    "name": "Leo Moretti",
+    "role": "player",
+    "phoneNumber": "+1 (555) 222-0012",
+    "isApproved": true,
+    "createdAt": "2026-02-10T07:42:42.291Z",
+    "updatedAt": "2026-02-10T07:42:42.291Z"
   }
 ]

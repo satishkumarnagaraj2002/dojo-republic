@@ -1,14 +1,14 @@
 [
   {
     "id": "tournament-1",
-    "name": "Spring Karate Championship 2026",
+    "name": "Spring Karate Championship 2027",
     "description": "Annual spring championship featuring kata and kumite competitions for all age groups.",
     "organizerId": "coach-1",
     "organizerType": "coach",
     "martialArt": "Karate",
-    "startDate": "2026-04-15T09:00:00.000Z",
-    "endDate": "2026-04-16T18:00:00.000Z",
-    "registrationDeadline": "2026-04-01T23:59:59.000Z",
+    "startDate": "2027-04-17T09:00:00.000Z",
+    "endDate": "2027-04-18T18:00:00.000Z",
+    "registrationDeadline": "2027-04-05T23:59:59.000Z",
     "venue": "City Sports Complex",
     "city": "Boston",
     "country": "USA",
@@ -24,14 +24,14 @@
         "name": "Kumite",
         "ageGroup": "18+",
         "gender": "male",
-        "weightClass": "Lightweight (< 60kg)"
+        "weightClass": "Middleweight (67-75kg)"
       },
       {
         "id": "cat-3",
         "name": "Kumite",
         "ageGroup": "18+",
         "gender": "female",
-        "weightClass": "Lightweight (< 60kg)"
+        "weightClass": "Middleweight (55-68kg)"
       }
     ],
     "rules": "WKF official rules apply. All participants must wear approved protective gear.",
@@ -41,21 +41,57 @@
     "registrationFee": 50,
     "isApproved": true,
     "isPublished": true,
-    "participants": [],
+    "participants": [
+      {
+        "id": "registration-spring-1",
+        "playerId": "player-profile-1",
+        "categoryId": "cat-3",
+        "registrationDate": "2026-10-12T14:30:00.000Z",
+        "paymentStatus": "paid"
+      },
+      {
+        "id": "registration-spring-2",
+        "playerId": "player-profile-2",
+        "categoryId": "cat-2",
+        "registrationDate": "2026-10-13T10:15:00.000Z",
+        "paymentStatus": "paid"
+      },
+      {
+        "id": "registration-spring-3",
+        "playerId": "player-profile-9",
+        "categoryId": "cat-1",
+        "registrationDate": "2026-10-18T08:45:00.000Z",
+        "paymentStatus": "paid"
+      },
+      {
+        "id": "registration-spring-4",
+        "playerId": "player-profile-10",
+        "categoryId": "cat-2",
+        "registrationDate": "2026-10-20T17:20:00.000Z",
+        "paymentStatus": "paid"
+      },
+      {
+        "id": "registration-spring-5",
+        "playerId": "player-profile-3",
+        "categoryId": "cat-3",
+        "registrationDate": "2026-10-24T11:00:00.000Z",
+        "paymentStatus": "paid"
+      }
+    ],
     "results": [],
     "createdAt": "2026-02-10T07:42:42.291Z",
     "updatedAt": "2026-02-10T07:42:42.291Z"
   },
   {
     "id": "tournament-2",
-    "name": "Junior Karate League - Summer Edition",
+    "name": "Junior Karate League - Summer Edition 2027",
     "description": "Youth focused tournament for ages 6-17. Perfect for young martial artists to gain competition experience.",
     "organizerId": "owner-1",
     "organizerType": "dojo_owner",
     "martialArt": "Karate",
-    "startDate": "2026-07-20T10:00:00.000Z",
-    "endDate": "2026-07-20T17:00:00.000Z",
-    "registrationDeadline": "2026-07-10T23:59:59.000Z",
+    "startDate": "2027-07-24T10:00:00.000Z",
+    "endDate": "2027-07-24T17:00:00.000Z",
+    "registrationDeadline": "2027-07-10T23:59:59.000Z",
     "venue": "Youth Sports Arena",
     "city": "Miami",
     "country": "USA",
@@ -87,6 +123,78 @@
     "isApproved": true,
     "isPublished": true,
     "participants": [],
+    "results": [],
+    "createdAt": "2026-02-10T07:42:42.291Z",
+    "updatedAt": "2026-02-10T07:42:42.291Z"
+  },
+  {
+    "id": "tournament-3",
+    "name": "Lone Star Karate Invitational",
+    "description": "A weekend of kata and kumite competition for adult athletes, with divisions for beginner through advanced ranks.",
+    "organizerId": "coach-1",
+    "organizerType": "coach",
+    "martialArt": "Karate",
+    "startDate": "2027-10-09T09:00:00.000Z",
+    "endDate": "2027-10-10T17:00:00.000Z",
+    "registrationDeadline": "2027-09-20T23:59:59.000Z",
+    "venue": "Austin Convention Center",
+    "city": "Austin",
+    "country": "USA",
+    "categories": [
+      {
+        "id": "cat-7",
+        "name": "Kata",
+        "ageGroup": "18+",
+        "gender": "mixed",
+        "beltLevel": "Brown and Black Belt"
+      },
+      {
+        "id": "cat-8",
+        "name": "Kumite",
+        "ageGroup": "18+",
+        "gender": "male",
+        "weightClass": "Middleweight (67-75kg)",
+        "beltLevel": "Brown and Black Belt"
+      },
+      {
+        "id": "cat-9",
+        "name": "Kumite",
+        "ageGroup": "18+",
+        "gender": "female",
+        "weightClass": "Lightweight (under 61kg)",
+        "beltLevel": "Brown and Black Belt"
+      }
+    ],
+    "rules": "WKF competition rules apply. Athletes must bring approved protective equipment and arrive 60 minutes before their first division.",
+    "contactEmail": "coach@demo.com",
+    "contactPhone": "+1 (555) 333-0001",
+    "maxParticipants": 160,
+    "registrationFee": 65,
+    "isApproved": true,
+    "isPublished": true,
+    "participants": [
+      {
+        "id": "registration-lonestar-1",
+        "playerId": "player-profile-2",
+        "categoryId": "cat-8",
+        "registrationDate": "2026-10-21T16:05:00.000Z",
+        "paymentStatus": "paid"
+      },
+      {
+        "id": "registration-lonestar-2",
+        "playerId": "player-profile-9",
+        "categoryId": "cat-9",
+        "registrationDate": "2026-10-25T09:40:00.000Z",
+        "paymentStatus": "paid"
+      },
+      {
+        "id": "registration-lonestar-3",
+        "playerId": "player-profile-12",
+        "categoryId": "cat-8",
+        "registrationDate": "2026-10-28T13:15:00.000Z",
+        "paymentStatus": "pending"
+      }
+    ],
     "results": [],
     "createdAt": "2026-02-10T07:42:42.291Z",
     "updatedAt": "2026-02-10T07:42:42.291Z"

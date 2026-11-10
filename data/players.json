@@ -3,7 +3,7 @@
     "id": "player-profile-1",
     "userId": "player-1",
     "name": "Sarah Johnson",
-    "age": 22,
+    "age": 24,
     "dateOfBirth": "2002-03-15",
     "gender": "female",
     "beltCategory": "Black Belt 2nd Dan",
@@ -12,7 +12,32 @@
     "country": "USA",
     "weight": 65,
     "height": 170,
-    "achievements": [],
+    "achievements": [
+      {
+        "id": "achievement-sarah-1",
+        "playerId": "player-profile-1",
+        "tournamentName": "National Karate Championship",
+        "category": "Kata - Women Senior",
+        "position": "gold",
+        "year": 2025,
+        "date": "2025-08-15",
+        "isApproved": true,
+        "createdAt": "2026-02-10T07:42:42.291Z",
+        "updatedAt": "2026-02-10T07:42:42.291Z"
+      },
+      {
+        "id": "achievement-sarah-2",
+        "playerId": "player-profile-1",
+        "tournamentName": "Northeast Open",
+        "category": "Kumite - Women -68kg",
+        "position": "silver",
+        "year": 2024,
+        "date": "2024-11-20",
+        "isApproved": true,
+        "createdAt": "2026-02-10T07:42:42.291Z",
+        "updatedAt": "2026-02-10T07:42:42.291Z"
+      }
+    ],
     "createdAt": "2026-02-10T07:42:42.291Z",
     "updatedAt": "2026-02-10T07:42:42.291Z"
   },
@@ -20,7 +45,7 @@
     "id": "player-profile-2",
     "userId": "player-2",
     "name": "Marcus Chen",
-    "age": 19,
+    "age": 21,
     "dateOfBirth": "2005-07-22",
     "gender": "male",
     "beltCategory": "Black Belt 1st Dan",
@@ -29,7 +54,20 @@
     "country": "USA",
     "weight": 75,
     "height": 178,
-    "achievements": [],
+    "achievements": [
+      {
+        "id": "achievement-marcus-1",
+        "playerId": "player-profile-2",
+        "tournamentName": "West Coast Karate Open",
+        "category": "Kumite - Men -75kg",
+        "position": "gold",
+        "year": 2025,
+        "date": "2025-06-08",
+        "isApproved": true,
+        "createdAt": "2026-02-10T07:42:42.291Z",
+        "updatedAt": "2026-02-10T07:42:42.291Z"
+      }
+    ],
     "createdAt": "2026-02-10T07:42:42.291Z",
     "updatedAt": "2026-02-10T07:42:42.291Z"
   },
@@ -37,7 +75,7 @@
     "id": "player-profile-3",
     "userId": "player-3",
     "name": "Emily Rodriguez",
-    "age": 24,
+    "age": 25,
     "dateOfBirth": "2000-12-05",
     "gender": "female",
     "beltCategory": "Black Belt 3rd Dan",
@@ -46,7 +84,20 @@
     "country": "USA",
     "weight": 60,
     "height": 165,
-    "achievements": [],
+    "achievements": [
+      {
+        "id": "achievement-emily-1",
+        "playerId": "player-profile-3",
+        "tournamentName": "Florida State Championships",
+        "category": "Kata - Women Senior",
+        "position": "bronze",
+        "year": 2025,
+        "date": "2025-03-16",
+        "isApproved": true,
+        "createdAt": "2026-02-10T07:42:42.291Z",
+        "updatedAt": "2026-02-10T07:42:42.291Z"
+      }
+    ],
     "createdAt": "2026-02-10T07:42:42.291Z",
     "updatedAt": "2026-02-10T07:42:42.291Z"
   },
@@ -54,7 +105,7 @@
     "id": "player-profile-4",
     "userId": "player-4",
     "name": "Takeshi Yamamoto",
-    "age": 21,
+    "age": 23,
     "dateOfBirth": "2003-04-18",
     "gender": "male",
     "beltCategory": "Black Belt 2nd Dan",
@@ -63,7 +114,20 @@
     "country": "Japan",
     "weight": 70,
     "height": 172,
-    "achievements": [],
+    "achievements": [
+      {
+        "id": "achievement-takeshi-1",
+        "playerId": "player-profile-4",
+        "tournamentName": "Tokyo International Karate Cup",
+        "category": "Kumite - Men -75kg",
+        "position": "silver",
+        "year": 2025,
+        "date": "2025-10-12",
+        "isApproved": true,
+        "createdAt": "2026-02-10T07:42:42.291Z",
+        "updatedAt": "2026-02-10T07:42:42.291Z"
+      }
+    ],
     "createdAt": "2026-02-10T07:42:42.291Z",
     "updatedAt": "2026-02-10T07:42:42.291Z"
   },
@@ -71,7 +135,7 @@
     "id": "player-profile-5",
     "userId": "player-5",
     "name": "Isabella Santos",
-    "age": 18,
+    "age": 20,
     "dateOfBirth": "2006-09-30",
     "gender": "female",
     "beltCategory": "Brown Belt 1st Kyu",
@@ -80,7 +144,20 @@
     "country": "Brazil",
     "weight": 58,
     "height": 162,
-    "achievements": [],
+    "achievements": [
+      {
+        "id": "achievement-isabella-1",
+        "playerId": "player-profile-5",
+        "tournamentName": "São Paulo Youth Open",
+        "category": "Kata - Women U21",
+        "position": "gold",
+        "year": 2025,
+        "date": "2025-07-19",
+        "isApproved": true,
+        "createdAt": "2026-02-10T07:42:42.291Z",
+        "updatedAt": "2026-02-10T07:42:42.291Z"
+      }
+    ],
     "createdAt": "2026-02-10T07:42:42.291Z",
     "updatedAt": "2026-02-10T07:42:42.291Z"
   },
@@ -88,7 +165,7 @@
     "id": "player-profile-6",
     "userId": "player-6",
     "name": "Ahmed Hassan",
-    "age": 26,
+    "age": 28,
     "dateOfBirth": "1998-02-14",
     "gender": "male",
     "beltCategory": "Black Belt 4th Dan",
@@ -97,7 +174,20 @@
     "country": "Egypt",
     "weight": 82,
     "height": 180,
-    "achievements": [],
+    "achievements": [
+      {
+        "id": "achievement-ahmed-1",
+        "playerId": "player-profile-6",
+        "tournamentName": "Cairo Open",
+        "category": "Kumite - Men -84kg",
+        "position": "gold",
+        "year": 2024,
+        "date": "2024-12-06",
+        "isApproved": true,
+        "createdAt": "2026-02-10T07:42:42.291Z",
+        "updatedAt": "2026-02-10T07:42:42.291Z"
+      }
+    ],
     "createdAt": "2026-02-10T07:42:42.291Z",
     "updatedAt": "2026-02-10T07:42:42.291Z"
   },
@@ -105,7 +195,7 @@
     "id": "player-profile-7",
     "userId": "player-7",
     "name": "Sophie Martin",
-    "age": 20,
+    "age": 22,
     "dateOfBirth": "2004-11-08",
     "gender": "female",
     "beltCategory": "Black Belt 1st Dan",
@@ -114,7 +204,20 @@
     "country": "France",
     "weight": 63,
     "height": 168,
-    "achievements": [],
+    "achievements": [
+      {
+        "id": "achievement-sophie-1",
+        "playerId": "player-profile-7",
+        "tournamentName": "Paris Regional Championship",
+        "category": "Kata - Women Senior",
+        "position": "silver",
+        "year": 2025,
+        "date": "2025-05-25",
+        "isApproved": true,
+        "createdAt": "2026-02-10T07:42:42.291Z",
+        "updatedAt": "2026-02-10T07:42:42.291Z"
+      }
+    ],
     "createdAt": "2026-02-10T07:42:42.291Z",
     "updatedAt": "2026-02-10T07:42:42.291Z"
   },
@@ -122,7 +225,7 @@
     "id": "player-profile-8",
     "userId": "player-8",
     "name": "Ryan O'Connor",
-    "age": 23,
+    "age": 25,
     "dateOfBirth": "2001-06-12",
     "gender": "male",
     "beltCategory": "Black Belt 2nd Dan",
@@ -131,7 +234,140 @@
     "country": "Ireland",
     "weight": 78,
     "height": 176,
-    "achievements": [],
+    "achievements": [
+      {
+        "id": "achievement-ryan-1",
+        "playerId": "player-profile-8",
+        "tournamentName": "Emerald City Karate Open",
+        "category": "Kumite - Men -80kg",
+        "position": "bronze",
+        "year": 2025,
+        "date": "2025-09-14",
+        "isApproved": true,
+        "createdAt": "2026-02-10T07:42:42.291Z",
+        "updatedAt": "2026-02-10T07:42:42.291Z"
+      }
+    ],
+    "createdAt": "2026-02-10T07:42:42.291Z",
+    "updatedAt": "2026-02-10T07:42:42.291Z"
+  },
+  {
+    "id": "player-profile-9",
+    "userId": "player-9",
+    "name": "Aiko Tanaka",
+    "age": 22,
+    "dateOfBirth": "2004-01-19",
+    "gender": "female",
+    "beltCategory": "Black Belt 1st Dan",
+    "dojoId": "dojo-3",
+    "city": "Chicago",
+    "country": "USA",
+    "weight": 56,
+    "height": 163,
+    "achievements": [
+      {
+        "id": "achievement-aiko-1",
+        "playerId": "player-profile-9",
+        "tournamentName": "Midwest Karate Invitational",
+        "category": "Kata - Women Senior",
+        "position": "gold",
+        "year": 2025,
+        "date": "2025-04-12",
+        "isApproved": true,
+        "createdAt": "2026-02-10T07:42:42.291Z",
+        "updatedAt": "2026-02-10T07:42:42.291Z"
+      }
+    ],
+    "createdAt": "2026-02-10T07:42:42.291Z",
+    "updatedAt": "2026-02-10T07:42:42.291Z"
+  },
+  {
+    "id": "player-profile-10",
+    "userId": "player-10",
+    "name": "Jordan Brooks",
+    "age": 30,
+    "dateOfBirth": "1996-05-04",
+    "gender": "male",
+    "beltCategory": "Black Belt 3rd Dan",
+    "dojoId": "dojo-1",
+    "city": "New York",
+    "country": "USA",
+    "weight": 84,
+    "height": 185,
+    "achievements": [
+      {
+        "id": "achievement-jordan-1",
+        "playerId": "player-profile-10",
+        "tournamentName": "Atlantic Coast Karate Classic",
+        "category": "Kumite - Men -84kg",
+        "position": "silver",
+        "year": 2025,
+        "date": "2025-06-21",
+        "isApproved": true,
+        "createdAt": "2026-02-10T07:42:42.291Z",
+        "updatedAt": "2026-02-10T07:42:42.291Z"
+      }
+    ],
+    "createdAt": "2026-02-10T07:42:42.291Z",
+    "updatedAt": "2026-02-10T07:42:42.291Z"
+  },
+  {
+    "id": "player-profile-11",
+    "userId": "player-11",
+    "name": "Priya Nair",
+    "age": 23,
+    "dateOfBirth": "2003-09-12",
+    "gender": "female",
+    "beltCategory": "Brown Belt 1st Kyu",
+    "dojoId": "dojo-2",
+    "city": "Los Angeles",
+    "country": "USA",
+    "weight": 58,
+    "height": 166,
+    "achievements": [
+      {
+        "id": "achievement-priya-1",
+        "playerId": "player-profile-11",
+        "tournamentName": "Golden State Youth and U21 Open",
+        "category": "Kata - Women U21",
+        "position": "bronze",
+        "year": 2025,
+        "date": "2025-02-09",
+        "isApproved": true,
+        "createdAt": "2026-02-10T07:42:42.291Z",
+        "updatedAt": "2026-02-10T07:42:42.291Z"
+      }
+    ],
+    "createdAt": "2026-02-10T07:42:42.291Z",
+    "updatedAt": "2026-02-10T07:42:42.291Z"
+  },
+  {
+    "id": "player-profile-12",
+    "userId": "player-12",
+    "name": "Leo Moretti",
+    "age": 25,
+    "dateOfBirth": "2001-02-24",
+    "gender": "male",
+    "beltCategory": "Black Belt 2nd Dan",
+    "dojoId": "dojo-3",
+    "city": "Chicago",
+    "country": "USA",
+    "weight": 73,
+    "height": 177,
+    "achievements": [
+      {
+        "id": "achievement-leo-1",
+        "playerId": "player-profile-12",
+        "tournamentName": "Midwest Karate Invitational",
+        "category": "Kumite - Men -75kg",
+        "position": "gold",
+        "year": 2025,
+        "date": "2025-04-12",
+        "isApproved": true,
+        "createdAt": "2026-02-10T07:42:42.291Z",
+        "updatedAt": "2026-02-10T07:42:42.291Z"
+      }
+    ],
     "createdAt": "2026-02-10T07:42:42.291Z",
     "updatedAt": "2026-02-10T07:42:42.291Z"
   }

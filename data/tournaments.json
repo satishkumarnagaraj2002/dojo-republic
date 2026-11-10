@@ -79,8 +79,8 @@
       }
     ],
     "results": [],
-    "createdAt": "2026-02-10T07:42:42.291Z",
-    "updatedAt": "2026-02-10T07:42:42.291Z"
+    "createdAt": "2026-11-10T21:30:56.160Z",
+    "updatedAt": "2026-11-10T21:30:56.160Z"
   },
   {
     "id": "tournament-2",
@@ -124,8 +124,8 @@
     "isPublished": true,
     "participants": [],
     "results": [],
-    "createdAt": "2026-02-10T07:42:42.291Z",
-    "updatedAt": "2026-02-10T07:42:42.291Z"
+    "createdAt": "2026-11-10T21:30:56.160Z",
+    "updatedAt": "2026-11-10T21:30:56.160Z"
   },
   {
     "id": "tournament-3",
@@ -196,7 +196,7 @@
       }
     ],
     "results": [],
-    "createdAt": "2026-02-10T07:42:42.291Z",
-    "updatedAt": "2026-02-10T07:42:42.291Z"
+    "createdAt": "2026-11-10T21:30:56.160Z",
+    "updatedAt": "2026-11-10T21:30:56.160Z"
   }
 ]

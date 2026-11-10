@@ -14,7 +14,7 @@
     "height": 170,
     "achievements": [
       {
-        "id": "achievement-sarah-1",
+        "id": "achievement-player-profile-1",
         "playerId": "player-profile-1",
         "tournamentName": "National Karate Championship",
         "category": "Kata - Women Senior",
@@ -22,11 +22,11 @@
         "year": 2025,
         "date": "2025-08-15",
         "isApproved": true,
-        "createdAt": "2026-02-10T07:42:42.291Z",
-        "updatedAt": "2026-02-10T07:42:42.291Z"
+        "createdAt": "2026-11-10T21:30:56.160Z",
+        "updatedAt": "2026-11-10T21:30:56.160Z"
       },
       {
-        "id": "achievement-sarah-2",
+        "id": "achievement-player-profile-1-2",
         "playerId": "player-profile-1",
         "tournamentName": "Northeast Open",
         "category": "Kumite - Women -68kg",
@@ -34,12 +34,12 @@
         "year": 2024,
         "date": "2024-11-20",
         "isApproved": true,
-        "createdAt": "2026-02-10T07:42:42.291Z",
-        "updatedAt": "2026-02-10T07:42:42.291Z"
+        "createdAt": "2026-11-10T21:30:56.160Z",
+        "updatedAt": "2026-11-10T21:30:56.160Z"
       }
     ],
-    "createdAt": "2026-02-10T07:42:42.291Z",
-    "updatedAt": "2026-02-10T07:42:42.291Z"
+    "createdAt": "2026-11-10T21:30:56.160Z",
+    "updatedAt": "2026-11-10T21:30:56.160Z"
   },
   {
     "id": "player-profile-2",
@@ -56,7 +56,7 @@
     "height": 178,
     "achievements": [
       {
-        "id": "achievement-marcus-1",
+        "id": "achievement-player-profile-2",
         "playerId": "player-profile-2",
         "tournamentName": "West Coast Karate Open",
         "category": "Kumite - Men -75kg",
@@ -64,12 +64,12 @@
         "year": 2025,
         "date": "2025-06-08",
         "isApproved": true,
-        "createdAt": "2026-02-10T07:42:42.291Z",
-        "updatedAt": "2026-02-10T07:42:42.291Z"
+        "createdAt": "2026-11-10T21:30:56.160Z",
+        "updatedAt": "2026-11-10T21:30:56.160Z"
       }
     ],
-    "createdAt": "2026-02-10T07:42:42.291Z",
-    "updatedAt": "2026-02-10T07:42:42.291Z"
+    "createdAt": "2026-11-10T21:30:56.160Z",
+    "updatedAt": "2026-11-10T21:30:56.160Z"
   },
   {
     "id": "player-profile-3",
@@ -86,7 +86,7 @@
     "height": 165,
     "achievements": [
       {
-        "id": "achievement-emily-1",
+        "id": "achievement-player-profile-3",
         "playerId": "player-profile-3",
         "tournamentName": "Florida State Championships",
         "category": "Kata - Women Senior",
@@ -94,12 +94,12 @@
         "year": 2025,
         "date": "2025-03-16",
         "isApproved": true,
-        "createdAt": "2026-02-10T07:42:42.291Z",
-        "updatedAt": "2026-02-10T07:42:42.291Z"
+        "createdAt": "2026-11-10T21:30:56.160Z",
+        "updatedAt": "2026-11-10T21:30:56.160Z"
       }
     ],
-    "createdAt": "2026-02-10T07:42:42.291Z",
-    "updatedAt": "2026-02-10T07:42:42.291Z"
+    "createdAt": "2026-11-10T21:30:56.160Z",
+    "updatedAt": "2026-11-10T21:30:56.160Z"
   },
   {
     "id": "player-profile-4",
@@ -116,7 +116,7 @@
     "height": 172,
     "achievements": [
       {
-        "id": "achievement-takeshi-1",
+        "id": "achievement-player-profile-4",
         "playerId": "player-profile-4",
         "tournamentName": "Tokyo International Karate Cup",
         "category": "Kumite - Men -75kg",
@@ -124,12 +124,12 @@
         "year": 2025,
         "date": "2025-10-12",
         "isApproved": true,
-        "createdAt": "2026-02-10T07:42:42.291Z",
-        "updatedAt": "2026-02-10T07:42:42.291Z"
+        "createdAt": "2026-11-10T21:30:56.160Z",
+        "updatedAt": "2026-11-10T21:30:56.160Z"
       }
     ],
-    "createdAt": "2026-02-10T07:42:42.291Z",
-    "updatedAt": "2026-02-10T07:42:42.291Z"
+    "createdAt": "2026-11-10T21:30:56.160Z",
+    "updatedAt": "2026-11-10T21:30:56.160Z"
   },
   {
     "id": "player-profile-5",
@@ -146,7 +146,7 @@
     "height": 162,
     "achievements": [
       {
-        "id": "achievement-isabella-1",
+        "id": "achievement-player-profile-5",
         "playerId": "player-profile-5",
         "tournamentName": "São Paulo Youth Open",
         "category": "Kata - Women U21",
@@ -154,12 +154,12 @@
         "year": 2025,
         "date": "2025-07-19",
         "isApproved": true,
-        "createdAt": "2026-02-10T07:42:42.291Z",
-        "updatedAt": "2026-02-10T07:42:42.291Z"
+        "createdAt": "2026-11-10T21:30:56.160Z",
+        "updatedAt": "2026-11-10T21:30:56.160Z"
       }
     ],
-    "createdAt": "2026-02-10T07:42:42.291Z",
-    "updatedAt": "2026-02-10T07:42:42.291Z"
+    "createdAt": "2026-11-10T21:30:56.160Z",
+    "updatedAt": "2026-11-10T21:30:56.160Z"
   },
   {
     "id": "player-profile-6",
@@ -176,7 +176,7 @@
     "height": 180,
     "achievements": [
       {
-        "id": "achievement-ahmed-1",
+        "id": "achievement-player-profile-6",
         "playerId": "player-profile-6",
         "tournamentName": "Cairo Open",
         "category": "Kumite - Men -84kg",
@@ -184,12 +184,12 @@
         "year": 2024,
         "date": "2024-12-06",
         "isApproved": true,
-        "createdAt": "2026-02-10T07:42:42.291Z",
-        "updatedAt": "2026-02-10T07:42:42.291Z"
+        "createdAt": "2026-11-10T21:30:56.160Z",
+        "updatedAt": "2026-11-10T21:30:56.160Z"
       }
     ],
-    "createdAt": "2026-02-10T07:42:42.291Z",
-    "updatedAt": "2026-02-10T07:42:42.291Z"
+    "createdAt": "2026-11-10T21:30:56.160Z",
+    "updatedAt": "2026-11-10T21:30:56.160Z"
   },
   {
     "id": "player-profile-7",
@@ -206,7 +206,7 @@
     "height": 168,
     "achievements": [
       {
-        "id": "achievement-sophie-1",
+        "id": "achievement-player-profile-7",
         "playerId": "player-profile-7",
         "tournamentName": "Paris Regional Championship",
         "category": "Kata - Women Senior",
@@ -214,12 +214,12 @@
         "year": 2025,
         "date": "2025-05-25",
         "isApproved": true,
-        "createdAt": "2026-02-10T07:42:42.291Z",
-        "updatedAt": "2026-02-10T07:42:42.291Z"
+        "createdAt": "2026-11-10T21:30:56.160Z",
+        "updatedAt": "2026-11-10T21:30:56.160Z"
       }
     ],
-    "createdAt": "2026-02-10T07:42:42.291Z",
-    "updatedAt": "2026-02-10T07:42:42.291Z"
+    "createdAt": "2026-11-10T21:30:56.160Z",
+    "updatedAt": "2026-11-10T21:30:56.160Z"
   },
   {
     "id": "player-profile-8",
@@ -236,7 +236,7 @@
     "height": 176,
     "achievements": [
       {
-        "id": "achievement-ryan-1",
+        "id": "achievement-player-profile-8",
         "playerId": "player-profile-8",
         "tournamentName": "Emerald City Karate Open",
         "category": "Kumite - Men -80kg",
@@ -244,12 +244,12 @@
         "year": 2025,
         "date": "2025-09-14",
         "isApproved": true,
-        "createdAt": "2026-02-10T07:42:42.291Z",
-        "updatedAt": "2026-02-10T07:42:42.291Z"
+        "createdAt": "2026-11-10T21:30:56.160Z",
+        "updatedAt": "2026-11-10T21:30:56.160Z"
       }
     ],
-    "createdAt": "2026-02-10T07:42:42.291Z",
-    "updatedAt": "2026-02-10T07:42:42.291Z"
+    "createdAt": "2026-11-10T21:30:56.160Z",
+    "updatedAt": "2026-11-10T21:30:56.160Z"
   },
   {
     "id": "player-profile-9",
@@ -266,7 +266,7 @@
     "height": 163,
     "achievements": [
       {
-        "id": "achievement-aiko-1",
+        "id": "achievement-player-profile-9",
         "playerId": "player-profile-9",
         "tournamentName": "Midwest Karate Invitational",
         "category": "Kata - Women Senior",
@@ -274,12 +274,12 @@
         "year": 2025,
         "date": "2025-04-12",
         "isApproved": true,
-        "createdAt": "2026-02-10T07:42:42.291Z",
-        "updatedAt": "2026-02-10T07:42:42.291Z"
+        "createdAt": "2026-11-10T21:30:56.160Z",
+        "updatedAt": "2026-11-10T21:30:56.160Z"
       }
     ],
-    "createdAt": "2026-02-10T07:42:42.291Z",
-    "updatedAt": "2026-02-10T07:42:42.291Z"
+    "createdAt": "2026-11-10T21:30:56.160Z",
+    "updatedAt": "2026-11-10T21:30:56.160Z"
   },
   {
     "id": "player-profile-10",
@@ -296,7 +296,7 @@
     "height": 185,
     "achievements": [
       {
-        "id": "achievement-jordan-1",
+        "id": "achievement-player-profile-10",
         "playerId": "player-profile-10",
         "tournamentName": "Atlantic Coast Karate Classic",
         "category": "Kumite - Men -84kg",
@@ -304,12 +304,12 @@
         "year": 2025,
         "date": "2025-06-21",
         "isApproved": true,
-        "createdAt": "2026-02-10T07:42:42.291Z",
-        "updatedAt": "2026-02-10T07:42:42.291Z"
+        "createdAt": "2026-11-10T21:30:56.160Z",
+        "updatedAt": "2026-11-10T21:30:56.160Z"
       }
     ],
-    "createdAt": "2026-02-10T07:42:42.291Z",
-    "updatedAt": "2026-02-10T07:42:42.291Z"
+    "createdAt": "2026-11-10T21:30:56.160Z",
+    "updatedAt": "2026-11-10T21:30:56.160Z"
   },
   {
     "id": "player-profile-11",
@@ -326,7 +326,7 @@
     "height": 166,
     "achievements": [
       {
-        "id": "achievement-priya-1",
+        "id": "achievement-player-profile-11",
         "playerId": "player-profile-11",
         "tournamentName": "Golden State Youth and U21 Open",
         "category": "Kata - Women U21",
@@ -334,12 +334,12 @@
         "year": 2025,
         "date": "2025-02-09",
         "isApproved": true,
-        "createdAt": "2026-02-10T07:42:42.291Z",
-        "updatedAt": "2026-02-10T07:42:42.291Z"
+        "createdAt": "2026-11-10T21:30:56.160Z",
+        "updatedAt": "2026-11-10T21:30:56.160Z"
       }
     ],
-    "createdAt": "2026-02-10T07:42:42.291Z",
-    "updatedAt": "2026-02-10T07:42:42.291Z"
+    "createdAt": "2026-11-10T21:30:56.160Z",
+    "updatedAt": "2026-11-10T21:30:56.160Z"
   },
   {
     "id": "player-profile-12",
@@ -356,7 +356,7 @@
     "height": 177,
     "achievements": [
       {
-        "id": "achievement-leo-1",
+        "id": "achievement-player-profile-12",
         "playerId": "player-profile-12",
         "tournamentName": "Midwest Karate Invitational",
         "category": "Kumite - Men -75kg",
@@ -364,11 +364,11 @@
         "year": 2025,
         "date": "2025-04-12",
         "isApproved": true,
-        "createdAt": "2026-02-10T07:42:42.291Z",
-        "updatedAt": "2026-02-10T07:42:42.291Z"
+        "createdAt": "2026-11-10T21:30:56.160Z",
+        "updatedAt": "2026-11-10T21:30:56.160Z"
       }
     ],
-    "createdAt": "2026-02-10T07:42:42.291Z",
-    "updatedAt": "2026-02-10T07:42:42.291Z"
+    "createdAt": "2026-11-10T21:30:56.160Z",
+    "updatedAt": "2026-11-10T21:30:56.160Z"
   }
 ]

@@ -1,1 +1,66 @@
-[]
+[
+  {
+    "id": "match-demo-1",
+    "tournamentId": "tournament-1",
+    "categoryId": "cat-1",
+    "playerAId": "player-profile-1",
+    "playerBId": "player-profile-3",
+    "round": "Semi-final",
+    "status": "scheduled",
+    "scorePlayerA": {
+      "points": 0,
+      "warnings": 0,
+      "penalties": 0,
+      "ippon": 0,
+      "wazaari": 0,
+      "yuko": 0
+    },
+    "scorePlayerB": {
+      "points": 0,
+      "warnings": 0,
+      "penalties": 0,
+      "ippon": 0,
+      "wazaari": 0,
+      "yuko": 0
+    },
+    "matchDate": "2027-04-17T11:30:00.000Z",
+    "refereeId": "referee-1",
+    "judges": [
+      "judge-1"
+    ],
+    "createdAt": "2026-11-10T21:30:56.160Z",
+    "updatedAt": "2026-11-10T21:30:56.160Z"
+  },
+  {
+    "id": "match-demo-2",
+    "tournamentId": "tournament-1",
+    "categoryId": "cat-2",
+    "playerAId": "player-profile-2",
+    "playerBId": "player-profile-9",
+    "round": "Quarter-final",
+    "status": "scheduled",
+    "scorePlayerA": {
+      "points": 0,
+      "warnings": 0,
+      "penalties": 0,
+      "ippon": 0,
+      "wazaari": 0,
+      "yuko": 0
+    },
+    "scorePlayerB": {
+      "points": 0,
+      "warnings": 0,
+      "penalties": 0,
+      "ippon": 0,
+      "wazaari": 0,
+      "yuko": 0
+    },
+    "matchDate": "2027-04-17T13:00:00.000Z",
+    "refereeId": "referee-1",
+    "judges": [
+      "judge-1"
+    ],
+    "createdAt": "2026-11-10T21:30:56.160Z",
+    "updatedAt": "2026-11-10T21:30:56.160Z"
+  }
+]

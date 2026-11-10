@@ -1,1 +1,27 @@
-[]
+[
+  {
+    "id": "enquiry-demo-1",
+    "name": "Olivia Carter",
+    "email": "parent@demo.com",
+    "phoneNumber": "+1 (555) 555-0001",
+    "subject": "Trial class for two children",
+    "message": "Could we book a beginner-friendly trial class for Maya and Ethan next Saturday?",
+    "type": "dojo",
+    "status": "in_progress",
+    "dojoId": "dojo-1",
+    "createdAt": "2026-11-10T21:30:56.160Z",
+    "updatedAt": "2026-11-10T21:30:56.160Z"
+  },
+  {
+    "id": "enquiry-demo-2",
+    "name": "Jordan Lee",
+    "email": "jordan.lee@example.com",
+    "phoneNumber": "+1 (555) 777-0101",
+    "subject": "Tournament registration question",
+    "message": "Please confirm whether protective equipment is provided at the venue.",
+    "type": "tournament",
+    "status": "new",
+    "createdAt": "2026-11-10T21:30:56.160Z",
+    "updatedAt": "2026-11-10T21:30:56.160Z"
+  }
+]

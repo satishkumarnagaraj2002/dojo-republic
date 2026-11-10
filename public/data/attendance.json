@@ -1,0 +1,74 @@
+[
+  {
+    "id": "attendance-demo-1",
+    "studentId": "student-1",
+    "studentName": "Maya Carter",
+    "dojoId": "dojo-1",
+    "date": "2026-11-10",
+    "status": "present",
+    "className": "Kids Karate",
+    "notes": "",
+    "markedBy": "owner-1",
+    "createdAt": "2026-11-10T21:30:56.160Z"
+  },
+  {
+    "id": "attendance-demo-2",
+    "studentId": "student-2",
+    "studentName": "Ethan Carter",
+    "dojoId": "dojo-1",
+    "date": "2026-11-10",
+    "status": "present",
+    "className": "Kids Karate",
+    "notes": "",
+    "markedBy": "owner-1",
+    "createdAt": "2026-11-10T21:30:56.160Z"
+  },
+  {
+    "id": "attendance-demo-3",
+    "studentId": "student-3",
+    "studentName": "Noah Williams",
+    "dojoId": "dojo-1",
+    "date": "2026-11-10",
+    "status": "late",
+    "className": "Youth Karate",
+    "notes": "Arrived shortly after warm-up.",
+    "markedBy": "owner-1",
+    "createdAt": "2026-11-10T21:30:56.160Z"
+  },
+  {
+    "id": "attendance-demo-4",
+    "studentId": "student-4",
+    "studentName": "Ava Patel",
+    "dojoId": "dojo-2",
+    "date": "2026-11-10",
+    "status": "present",
+    "className": "Karate Basics",
+    "notes": "",
+    "markedBy": "coach-1",
+    "createdAt": "2026-11-10T21:30:56.160Z"
+  },
+  {
+    "id": "attendance-demo-5",
+    "studentId": "student-5",
+    "studentName": "Lucas Rivera",
+    "dojoId": "dojo-2",
+    "date": "2026-11-10",
+    "status": "absent",
+    "className": "Advanced Karate",
+    "notes": "",
+    "markedBy": "coach-1",
+    "createdAt": "2026-11-10T21:30:56.160Z"
+  },
+  {
+    "id": "attendance-demo-6",
+    "studentId": "student-6",
+    "studentName": "Zoe Kim",
+    "dojoId": "dojo-3",
+    "date": "2026-11-10",
+    "status": "present",
+    "className": "Competition Training",
+    "notes": "",
+    "markedBy": "coach-1",
+    "createdAt": "2026-11-10T21:30:56.160Z"
+  }
+]

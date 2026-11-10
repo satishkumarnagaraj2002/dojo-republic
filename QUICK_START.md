@@ -2,12 +2,35 @@
 
 ## 🎯 Get Up and Running in 3 Minutes
 
-### Step 1: Verify Installation (Already Done!)
+### Step 1: Install and Seed Demo Data
 
-The project is already set up and running at:
-**http://localhost:3000**
+```bash
+npm install
+npm run seed
+```
 
-### Step 2: Understanding What's Available
+The seed command creates fictional demo users and records in `data/`, including
+today's attendance sample in `public/data/attendance.json`.
+
+Most API-backed pages use MongoDB. To load the fixtures into a fresh local
+MongoDB database, set `MONGODB_URI` in `.env.local` and run:
+
+```bash
+npm run seed:mongodb
+```
+
+**Warning:** `npm run seed:mongodb` clears the demo collections it manages
+before importing the fixtures. Use it only with a fresh/demo database.
+
+### Step 2: Run the Website
+
+```bash
+npm run dev
+```
+
+Open **http://localhost:3000**.
+
+### Step 3: Understanding What's Available
 
 #### 🌐 You Can Visit These Pages RIGHT NOW:
 
@@ -23,7 +46,7 @@ The project is already set up and running at:
 
 - Login: http://localhost:3000/auth/login
 
-### Step 3: Login with Demo Account
+### Step 4: Login with Demo Account
 
 **Try Admin Account First:**
 
@@ -32,7 +55,8 @@ Email: admin@demo.com
 Password: password123
 ```
 
-After login, you'll see the admin dashboard with:
+After loading the fixtures into MongoDB and logging in, you'll see the admin
+dashboard with:
 
 - Pending approvals
 - Platform statistics
@@ -52,7 +76,7 @@ After login, you'll see the admin dashboard with:
 ### 2️⃣ Check Tournaments (30 seconds)
 
 1. Go to http://localhost:3000/tournaments
-2. See 2 upcoming tournaments
+2. See 3 upcoming tournaments
 3. Click to view details
 
 ### 3️⃣ View Athletes (30 seconds)
@@ -81,12 +105,17 @@ After login, you'll see the admin dashboard with:
 
 ## 🔑 All Demo Accounts
 
-| Role                 | Email           | Password    | What to Test                        |
-| -------------------- | --------------- | ----------- | ----------------------------------- |
-| **Admin**      | admin@demo.com  | password123 | Approve items, view analytics       |
-| **Dojo Owner** | owner@demo.com  | password123 | Manage dojo, students, attendance   |
-| **Player**     | player@demo.com | password123 | View profile, achievements          |
-| **Coach**      | coach@demo.com  | password123 | Create tournaments, manage training |
+| Role           | Email                | Password    | What to Test                         |
+| -------------- | -------------------- | ----------- | ------------------------------------ |
+| **Admin**      | admin@demo.com       | password123 | Approve items, view analytics        |
+| **Dojo Owner** | owner@demo.com       | password123 | Manage dojo, students, attendance    |
+| **Player**     | player@demo.com      | password123 | View profile and achievements        |
+| **Coach**      | coach@demo.com       | coach123    | Create tournaments, manage training |
+| **Seller**     | seller@demo.com      | password123 | Manage marketplace products          |
+| **Parent**     | parent@demo.com      | password123 | View linked student accounts         |
+| **Student**    | maya.carter@demo.com | password123 | Open the student dashboard           |
+| **Referee**    | referee@demo.com     | password123 | Open the referee dashboard           |
+| **Judge**      | judge@demo.com       | password123 | Open the judge dashboard             |
 
 ---
 
@@ -109,9 +138,10 @@ After login, you'll see the admin dashboard with:
 
 ### Tournaments Page
 
-- 2 upcoming tournaments:
-  - Spring Karate Championship 2026 (Boston)
+- 3 upcoming tournaments:
+  - Spring Karate Championship 2027 (Boston)
   - Junior Karate League (Miami)
+  - Lone Star Karate Invitational (Austin)
 
 ### Player Profile
 
@@ -155,7 +185,7 @@ Try these in order:
 
 ✅ **Fully Functional** - Everything works
 ✅ **Beautiful UI** - Professional design with TailwindCSS
-✅ **No Setup Needed** - Database already seeded
+✅ **Demo Fixtures** - Seeded fictional users and sample records
 ✅ **9 User Roles** - Different experiences for each
 ✅ **Live Scoring** - Interactive karate scorecard
 ✅ **Admin Approval** - Content moderation workflow
@@ -173,6 +203,19 @@ Try these in order:
 5. **Create Test Data** - Register new accounts, create dojos
 
 ---
+
+## 🚀 Production Build and Start
+
+Configure `MONGODB_URI` in the deployment environment, then build and start:
+
+```bash
+npm run build
+npm start
+```
+
+For Vercel, import the repository, configure `MONGODB_URI` in Project
+Environment Variables, and deploy. Seed a separate demo database first if you
+want the fictional sample records available.
 
 ## 🚀 Next Steps
 
@@ -201,12 +244,20 @@ npm run seed
 npm run dev
 ```
 
-**Want to Reset Everything?**
+**Refresh Local Demo Fixtures**
 
 ```bash
-rm -rf data/
 npm run seed
 ```
+
+**Refresh the MongoDB Demo Data**
+
+```bash
+npm run seed:mongodb
+```
+
+This clears and repopulates the collections managed by the demo seeder. Use
+only with a disposable/demo database; it will replace data in those collections.
 
 ---
 

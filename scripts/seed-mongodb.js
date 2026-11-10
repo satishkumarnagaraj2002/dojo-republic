@@ -18,6 +18,11 @@ const TournamentSchema = new mongoose.Schema({}, { strict: false });
 const ProductSchema = new mongoose.Schema({}, { strict: false });
 const SellerSchema = new mongoose.Schema({}, { strict: false });
 const StudentSchema = new mongoose.Schema({}, { strict: false });
+const AttendanceSchema = new mongoose.Schema({}, { strict: false });
+const OrderSchema = new mongoose.Schema({}, { strict: false });
+const MatchSchema = new mongoose.Schema({}, { strict: false });
+const EnquirySchema = new mongoose.Schema({}, { strict: false });
+const HostingRequestSchema = new mongoose.Schema({}, { strict: false });
 
 const User = mongoose.models.User || mongoose.model('User', UserSchema);
 const Dojo = mongoose.models.Dojo || mongoose.model('Dojo', DojoSchema);
@@ -26,6 +31,11 @@ const Tournament = mongoose.models.Tournament || mongoose.model('Tournament', To
 const Product = mongoose.models.Product || mongoose.model('Product', ProductSchema);
 const Seller = mongoose.models.Seller || mongoose.model('Seller', SellerSchema);
 const Student = mongoose.models.Student || mongoose.model('Student', StudentSchema);
+const Attendance = mongoose.models.Attendance || mongoose.model('Attendance', AttendanceSchema);
+const Order = mongoose.models.Order || mongoose.model('Order', OrderSchema);
+const Match = mongoose.models.Match || mongoose.model('Match', MatchSchema);
+const Enquiry = mongoose.models.Enquiry || mongoose.model('Enquiry', EnquirySchema);
+const HostingRequest = mongoose.models.HostingRequest || mongoose.model('HostingRequest', HostingRequestSchema);
 
 async function seedDatabase() {
   try {
@@ -43,6 +53,11 @@ async function seedDatabase() {
       Product.deleteMany({}),
       Seller.deleteMany({}),
       Student.deleteMany({}),
+      Attendance.deleteMany({}),
+      Order.deleteMany({}),
+      Match.deleteMany({}),
+      Enquiry.deleteMany({}),
+      HostingRequest.deleteMany({}),
     ]);
     console.log('Data cleared');
 
@@ -56,6 +71,11 @@ async function seedDatabase() {
     const productsData = JSON.parse(fs.readFileSync(path.join(dataDir, 'products.json'), 'utf8'));
     const sellersData = JSON.parse(fs.readFileSync(path.join(dataDir, 'sellers.json'), 'utf8'));
     const studentsData = JSON.parse(fs.readFileSync(path.join(dataDir, 'students.json'), 'utf8'));
+    const attendanceData = JSON.parse(fs.readFileSync(path.join(dataDir, 'attendance.json'), 'utf8'));
+    const ordersData = JSON.parse(fs.readFileSync(path.join(dataDir, 'orders.json'), 'utf8'));
+    const matchesData = JSON.parse(fs.readFileSync(path.join(dataDir, 'matches.json'), 'utf8'));
+    const enquiriesData = JSON.parse(fs.readFileSync(path.join(dataDir, 'enquiries.json'), 'utf8'));
+    const hostingRequestsData = JSON.parse(fs.readFileSync(path.join(dataDir, 'hosting-requests.json'), 'utf8'));
 
     // Note: Passwords in users.json are already hashed, so we don't need to hash them again
     console.log('Preparing data...');
@@ -89,11 +109,32 @@ async function seedDatabase() {
     const insertedStudents = await Student.insertMany(studentsData);
     console.log(`Inserted ${insertedStudents.length} students`);
 
+    console.log('Inserting attendance records...');
+    const insertedAttendance = await Attendance.insertMany(attendanceData);
+    console.log(`Inserted ${insertedAttendance.length} attendance records`);
+
+    console.log('Inserting orders...');
+    const insertedOrders = await Order.insertMany(ordersData);
+    console.log(`Inserted ${insertedOrders.length} orders`);
+
+    console.log('Inserting matches...');
+    const insertedMatches = await Match.insertMany(matchesData);
+    console.log(`Inserted ${insertedMatches.length} matches`);
+
+    console.log('Inserting enquiries...');
+    const insertedEnquiries = await Enquiry.insertMany(enquiriesData);
+    console.log(`Inserted ${insertedEnquiries.length} enquiries`);
+
+    console.log('Inserting tournament hosting requests...');
+    const insertedHostingRequests = await HostingRequest.insertMany(hostingRequestsData);
+    console.log(`Inserted ${insertedHostingRequests.length} hosting requests`);
+
     console.log('\\n✅ Database seeded successfully!');
     console.log('\\nYou can now login with:');
     console.log('- Admin: admin@demo.com / password123');
     console.log('- Dojo Owner: owner@demo.com / password123');
-    console.log('- Student: student@demo.com / password123');
+    console.log('- Parent: parent@demo.com / password123');
+    console.log('- Student: maya.carter@demo.com / password123');
     
   } catch (error) {
     console.error('Error seeding database:', error);

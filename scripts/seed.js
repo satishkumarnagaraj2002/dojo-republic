@@ -202,6 +202,64 @@ async function seedData() {
       createdAt: timestamp,
       updatedAt: timestamp,
     },
+    {
+      id: 'parent-1',
+      email: 'parent@demo.com',
+      password: await hashPassword('password123'),
+      name: 'Olivia Carter',
+      role: 'parent',
+      phoneNumber: '+1 (555) 555-0001',
+      linkedStudents: ['student-1', 'student-2'],
+      isApproved: true,
+      createdAt: timestamp,
+      updatedAt: timestamp,
+    },
+    {
+      id: 'student-user-1',
+      email: 'maya.carter@demo.com',
+      password: await hashPassword('password123'),
+      name: 'Maya Carter',
+      role: 'student',
+      phoneNumber: '+1 (555) 555-0002',
+      dojoId: 'dojo-1',
+      isApproved: true,
+      createdAt: timestamp,
+      updatedAt: timestamp,
+    },
+    {
+      id: 'student-user-2',
+      email: 'ethan.carter@demo.com',
+      password: await hashPassword('password123'),
+      name: 'Ethan Carter',
+      role: 'student',
+      phoneNumber: '+1 (555) 555-0003',
+      dojoId: 'dojo-1',
+      isApproved: true,
+      createdAt: timestamp,
+      updatedAt: timestamp,
+    },
+    {
+      id: 'referee-1',
+      email: 'referee@demo.com',
+      password: await hashPassword('password123'),
+      name: 'Daniel Brooks',
+      role: 'referee',
+      phoneNumber: '+1 (555) 666-0001',
+      isApproved: true,
+      createdAt: timestamp,
+      updatedAt: timestamp,
+    },
+    {
+      id: 'judge-1',
+      email: 'judge@demo.com',
+      password: await hashPassword('password123'),
+      name: 'Priya Shah',
+      role: 'judge',
+      phoneNumber: '+1 (555) 666-0002',
+      isApproved: true,
+      createdAt: timestamp,
+      updatedAt: timestamp,
+    },
   ];
 
   // Dojos
@@ -734,6 +792,248 @@ async function seedData() {
     },
   ];
 
+  const students = [
+    {
+      id: 'student-1',
+      userId: 'student-user-1',
+      name: 'Maya Carter',
+      email: 'maya.carter@demo.com',
+      phone: '+1 (555) 555-0002',
+      age: 12,
+      gender: 'female',
+      dojoId: 'dojo-1',
+      beltLevel: 'Green Belt',
+      parentId: 'parent-1',
+      enrollmentDate: '2025-09-08T15:00:00.000Z',
+      isActive: true,
+      createdAt: timestamp,
+      updatedAt: timestamp,
+    },
+    {
+      id: 'student-2',
+      userId: 'student-user-2',
+      name: 'Ethan Carter',
+      email: 'ethan.carter@demo.com',
+      phone: '+1 (555) 555-0003',
+      age: 9,
+      gender: 'male',
+      dojoId: 'dojo-1',
+      beltLevel: 'Yellow Belt',
+      parentId: 'parent-1',
+      enrollmentDate: '2025-09-08T15:00:00.000Z',
+      isActive: true,
+      createdAt: timestamp,
+      updatedAt: timestamp,
+    },
+    {
+      id: 'student-3',
+      name: 'Noah Williams',
+      email: 'noah.williams@demo.com',
+      phone: '+1 (555) 333-0101',
+      age: 15,
+      gender: 'male',
+      dojoId: 'dojo-1',
+      beltLevel: 'Blue Belt',
+      enrollmentDate: '2024-06-17T15:00:00.000Z',
+      isActive: true,
+      createdAt: timestamp,
+      updatedAt: timestamp,
+    },
+    {
+      id: 'student-4',
+      name: 'Ava Patel',
+      email: 'ava.patel@demo.com',
+      phone: '+1 (555) 333-0102',
+      age: 11,
+      gender: 'female',
+      dojoId: 'dojo-2',
+      beltLevel: 'Orange Belt',
+      enrollmentDate: '2025-01-13T15:00:00.000Z',
+      isActive: true,
+      createdAt: timestamp,
+      updatedAt: timestamp,
+    },
+    {
+      id: 'student-5',
+      name: 'Lucas Rivera',
+      email: 'lucas.rivera@demo.com',
+      phone: '+1 (555) 333-0103',
+      age: 17,
+      gender: 'male',
+      dojoId: 'dojo-2',
+      beltLevel: 'Brown Belt',
+      enrollmentDate: '2023-08-21T15:00:00.000Z',
+      isActive: true,
+      createdAt: timestamp,
+      updatedAt: timestamp,
+    },
+    {
+      id: 'student-6',
+      name: 'Zoe Kim',
+      email: 'zoe.kim@demo.com',
+      phone: '+1 (555) 333-0104',
+      age: 13,
+      gender: 'female',
+      dojoId: 'dojo-3',
+      beltLevel: 'Purple Belt',
+      enrollmentDate: '2024-03-04T15:00:00.000Z',
+      isActive: true,
+      createdAt: timestamp,
+      updatedAt: timestamp,
+    },
+  ];
+
+  const today = new Date().toISOString().slice(0, 10);
+  const attendance = [
+    ['student-1', 'Maya Carter', 'present', 'Kids Karate'],
+    ['student-2', 'Ethan Carter', 'present', 'Kids Karate'],
+    ['student-3', 'Noah Williams', 'late', 'Youth Karate'],
+    ['student-4', 'Ava Patel', 'present', 'Karate Basics'],
+    ['student-5', 'Lucas Rivera', 'absent', 'Advanced Karate'],
+    ['student-6', 'Zoe Kim', 'present', 'Competition Training'],
+  ].map(([studentId, studentName, status, className], index) => ({
+    id: `attendance-demo-${index + 1}`,
+    studentId,
+    studentName,
+    dojoId: index < 3 ? 'dojo-1' : index < 5 ? 'dojo-2' : 'dojo-3',
+    date: today,
+    status,
+    className,
+    notes: status === 'late' ? 'Arrived shortly after warm-up.' : '',
+    markedBy: index < 3 ? 'owner-1' : 'coach-1',
+    createdAt: timestamp,
+  }));
+
+  const orders = [
+    {
+      id: 'order-demo-1',
+      customerId: 'player-1',
+      sellerId: 'seller-1',
+      products: [{ productId: 'product-1', quantity: 1, price: 89.99 }],
+      totalAmount: 89.99,
+      commissionAmount: 9,
+      status: 'delivered',
+      shippingAddress: '100 Demo Lane, New York, NY 10001, USA',
+      paymentStatus: 'paid',
+      paymentMethod: 'card',
+      trackingNumber: 'DR-DEMO-1001',
+      createdAt: timestamp,
+      updatedAt: timestamp,
+    },
+    {
+      id: 'order-demo-2',
+      customerId: 'player-2',
+      sellerId: 'seller-1',
+      products: [{ productId: 'product-3', quantity: 2, price: 45.99 }],
+      totalAmount: 91.98,
+      commissionAmount: 9.2,
+      status: 'shipped',
+      shippingAddress: '200 Demo Avenue, Los Angeles, CA 90001, USA',
+      paymentStatus: 'paid',
+      paymentMethod: 'card',
+      trackingNumber: 'DR-DEMO-1002',
+      createdAt: timestamp,
+      updatedAt: timestamp,
+    },
+    {
+      id: 'order-demo-3',
+      customerId: 'player-3',
+      sellerId: 'seller-1',
+      products: [{ productId: 'product-2', quantity: 1, price: 149.99 }],
+      totalAmount: 149.99,
+      commissionAmount: 15,
+      status: 'confirmed',
+      shippingAddress: '300 Demo Street, Miami, FL 33101, USA',
+      paymentStatus: 'paid',
+      paymentMethod: 'card',
+      createdAt: timestamp,
+      updatedAt: timestamp,
+    },
+  ];
+
+  const matches = [
+    {
+      id: 'match-demo-1',
+      tournamentId: 'tournament-1',
+      categoryId: 'cat-1',
+      playerAId: 'player-profile-1',
+      playerBId: 'player-profile-3',
+      round: 'Semi-final',
+      status: 'scheduled',
+      scorePlayerA: { points: 0, warnings: 0, penalties: 0, ippon: 0, wazaari: 0, yuko: 0 },
+      scorePlayerB: { points: 0, warnings: 0, penalties: 0, ippon: 0, wazaari: 0, yuko: 0 },
+      matchDate: '2027-04-17T11:30:00.000Z',
+      refereeId: 'referee-1',
+      judges: ['judge-1'],
+      createdAt: timestamp,
+      updatedAt: timestamp,
+    },
+    {
+      id: 'match-demo-2',
+      tournamentId: 'tournament-1',
+      categoryId: 'cat-2',
+      playerAId: 'player-profile-2',
+      playerBId: 'player-profile-9',
+      round: 'Quarter-final',
+      status: 'scheduled',
+      scorePlayerA: { points: 0, warnings: 0, penalties: 0, ippon: 0, wazaari: 0, yuko: 0 },
+      scorePlayerB: { points: 0, warnings: 0, penalties: 0, ippon: 0, wazaari: 0, yuko: 0 },
+      matchDate: '2027-04-17T13:00:00.000Z',
+      refereeId: 'referee-1',
+      judges: ['judge-1'],
+      createdAt: timestamp,
+      updatedAt: timestamp,
+    },
+  ];
+
+  const enquiries = [
+    {
+      id: 'enquiry-demo-1',
+      name: 'Olivia Carter',
+      email: 'parent@demo.com',
+      phoneNumber: '+1 (555) 555-0001',
+      subject: 'Trial class for two children',
+      message: 'Could we book a beginner-friendly trial class for Maya and Ethan next Saturday?',
+      type: 'dojo',
+      status: 'in_progress',
+      dojoId: 'dojo-1',
+      createdAt: timestamp,
+      updatedAt: timestamp,
+    },
+    {
+      id: 'enquiry-demo-2',
+      name: 'Jordan Lee',
+      email: 'jordan.lee@example.com',
+      phoneNumber: '+1 (555) 777-0101',
+      subject: 'Tournament registration question',
+      message: 'Please confirm whether protective equipment is provided at the venue.',
+      type: 'tournament',
+      status: 'new',
+      createdAt: timestamp,
+      updatedAt: timestamp,
+    },
+  ];
+
+  const hostingRequests = [
+    {
+      id: 'hosting-demo-1',
+      requesterId: 'owner-1',
+      tournamentDetails: {
+        name: 'Autumn City Karate Open',
+        martialArt: 'Karate',
+        city: 'New York',
+        country: 'USA',
+        startDate: '2027-09-18T09:00:00.000Z',
+        maxParticipants: 120,
+      },
+      pricingPlan: 'standard',
+      status: 'pending',
+      adminNotes: '',
+      createdAt: timestamp,
+      updatedAt: timestamp,
+    },
+  ];
+
   // Write to files
   const writeData = (filename, data) => {
     const filePath = path.join(DATA_DIR, filename);
@@ -746,15 +1046,23 @@ async function seedData() {
   writeData('players.json', players);
   writeData('achievements.json', achievements);
   writeData('tournaments.json', tournaments);
-  writeData('matches.json', []);
-  writeData('students.json', []);
-  writeData('attendance.json', []);
+  writeData('matches.json', matches);
+  writeData('students.json', students);
+  writeData('attendance.json', attendance);
   writeData('products.json', products);
   writeData('sellers.json', sellers);
-  writeData('orders.json', []);
-  writeData('enquiries.json', []);
-  writeData('hosting-requests.json', []);
+  writeData('orders.json', orders);
+  writeData('enquiries.json', enquiries);
+  writeData('hosting-requests.json', hostingRequests);
   writeData('pricing-plans.json', pricingPlans);
+
+  const publicDataDir = path.join(__dirname, '..', 'public', 'data');
+  fs.mkdirSync(publicDataDir, { recursive: true });
+  fs.writeFileSync(
+    path.join(publicDataDir, 'attendance.json'),
+    JSON.stringify(attendance, null, 2),
+  );
+  console.log('✅ Created public/data/attendance.json');
 
   console.log('\n🎉 Database seeded successfully!');
   console.log('\n📝 Demo Account Credentials:');
@@ -763,9 +1071,10 @@ async function seedData() {
   console.log('   Player:     player@demo.com / password123');
   console.log('   Coach:      coach@demo.com / coach123');
   console.log('   Seller:     seller@demo.com / password123');
-  console.log('   Dojo Owner: owner@demo.com / password123');
-  console.log('   Player:     player@demo.com / password123');
-  console.log('   Coach:      coach@demo.com / coach123\n');
+  console.log('   Parent:     parent@demo.com / password123');
+  console.log('   Student:    maya.carter@demo.com / password123');
+  console.log('   Referee:    referee@demo.com / password123');
+  console.log('   Judge:      judge@demo.com / password123\n');
 }
 
 seedData().catch(console.error);

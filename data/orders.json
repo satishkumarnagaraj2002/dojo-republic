@@ -1,1 +1,64 @@
-[]
+[
+  {
+    "id": "order-demo-1",
+    "customerId": "player-1",
+    "sellerId": "seller-1",
+    "products": [
+      {
+        "productId": "product-1",
+        "quantity": 1,
+        "price": 89.99
+      }
+    ],
+    "totalAmount": 89.99,
+    "commissionAmount": 9,
+    "status": "delivered",
+    "shippingAddress": "100 Demo Lane, New York, NY 10001, USA",
+    "paymentStatus": "paid",
+    "paymentMethod": "card",
+    "trackingNumber": "DR-DEMO-1001",
+    "createdAt": "2026-11-10T21:30:56.160Z",
+    "updatedAt": "2026-11-10T21:30:56.160Z"
+  },
+  {
+    "id": "order-demo-2",
+    "customerId": "player-2",
+    "sellerId": "seller-1",
+    "products": [
+      {
+        "productId": "product-3",
+        "quantity": 2,
+        "price": 45.99
+      }
+    ],
+    "totalAmount": 91.98,
+    "commissionAmount": 9.2,
+    "status": "shipped",
+    "shippingAddress": "200 Demo Avenue, Los Angeles, CA 90001, USA",
+    "paymentStatus": "paid",
+    "paymentMethod": "card",
+    "trackingNumber": "DR-DEMO-1002",
+    "createdAt": "2026-11-10T21:30:56.160Z",
+    "updatedAt": "2026-11-10T21:30:56.160Z"
+  },
+  {
+    "id": "order-demo-3",
+    "customerId": "player-3",
+    "sellerId": "seller-1",
+    "products": [
+      {
+        "productId": "product-2",
+        "quantity": 1,
+        "price": 149.99
+      }
+    ],
+    "totalAmount": 149.99,
+    "commissionAmount": 15,
+    "status": "confirmed",
+    "shippingAddress": "300 Demo Street, Miami, FL 33101, USA",
+    "paymentStatus": "paid",
+    "paymentMethod": "card",
+    "createdAt": "2026-11-10T21:30:56.160Z",
+    "updatedAt": "2026-11-10T21:30:56.160Z"
+  }
+]

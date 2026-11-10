@@ -17,8 +17,8 @@
     "paymentStatus": "paid",
     "paymentMethod": "card",
     "trackingNumber": "DR-DEMO-1001",
-    "createdAt": "2026-11-10T21:30:56.160Z",
-    "updatedAt": "2026-11-10T21:30:56.160Z"
+    "createdAt": "2026-11-10T21:41:18.004Z",
+    "updatedAt": "2026-11-10T21:41:18.004Z"
   },
   {
     "id": "order-demo-2",
@@ -38,8 +38,8 @@
     "paymentStatus": "paid",
     "paymentMethod": "card",
     "trackingNumber": "DR-DEMO-1002",
-    "createdAt": "2026-11-10T21:30:56.160Z",
-    "updatedAt": "2026-11-10T21:30:56.160Z"
+    "createdAt": "2026-11-10T21:41:18.004Z",
+    "updatedAt": "2026-11-10T21:41:18.004Z"
   },
   {
     "id": "order-demo-3",
@@ -58,7 +58,7 @@
     "shippingAddress": "300 Demo Street, Miami, FL 33101, USA",
     "paymentStatus": "paid",
     "paymentMethod": "card",
-    "createdAt": "2026-11-10T21:30:56.160Z",
-    "updatedAt": "2026-11-10T21:30:56.160Z"
+    "createdAt": "2026-11-10T21:41:18.004Z",
+    "updatedAt": "2026-11-10T21:41:18.004Z"
   }
 ]

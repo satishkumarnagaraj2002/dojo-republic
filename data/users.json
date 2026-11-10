@@ -2,185 +2,185 @@
   {
     "id": "admin-1",
     "email": "admin@demo.com",
-    "password": "$2b$10$mfDpAFvqE3KDJzrpUxGER.iixfKZeT4Pc0/UOREjlipQoYQ087hc.",
+    "password": "$2b$10$PN3QOfm8vNidLiTAz.Qviuh/AM/ZfZYtL90jIH4YN/Jylpo80tCum",
     "name": "Admin User",
     "role": "admin",
     "phoneNumber": "+1 (555) 000-0001",
     "isApproved": true,
-    "createdAt": "2026-11-10T21:30:56.160Z",
-    "updatedAt": "2026-11-10T21:30:56.160Z"
+    "createdAt": "2026-11-10T21:41:18.004Z",
+    "updatedAt": "2026-11-10T21:41:18.004Z"
   },
   {
     "id": "owner-1",
     "email": "owner@demo.com",
-    "password": "$2b$10$Ur4RBkWx7EueC7vzIjBau.U96.KIrH7TJZ9FCWvnc4o4DN5SBJ5eO",
+    "password": "$2b$10$PIGrnADTAC9d00.4B3LOFOOYGbXsj3Y650rzxnRqYKqKG9wWgUSZW",
     "name": "John Smith",
     "role": "dojo_owner",
     "phoneNumber": "+1 (555) 111-0001",
     "isApproved": true,
     "dojoId": "dojo-1",
-    "createdAt": "2026-11-10T21:30:56.160Z",
-    "updatedAt": "2026-11-10T21:30:56.160Z"
+    "createdAt": "2026-11-10T21:41:18.004Z",
+    "updatedAt": "2026-11-10T21:41:18.004Z"
   },
   {
     "id": "player-1",
     "email": "player@demo.com",
-    "password": "$2b$10$jx2XusDxqA9agjiRJXShiuuqnLBl7kooC3//m6nAmpOJ.mX9aGQsG",
+    "password": "$2b$10$3uUjyu5LjrH49XUlcTG0Ieht.VQZ9QvcFxtKZgh8Dl0YHarDitAge",
     "name": "Sarah Johnson",
     "role": "player",
     "phoneNumber": "+1 (555) 222-0001",
     "isApproved": true,
-    "createdAt": "2026-11-10T21:30:56.160Z",
-    "updatedAt": "2026-11-10T21:30:56.160Z"
+    "createdAt": "2026-11-10T21:41:18.004Z",
+    "updatedAt": "2026-11-10T21:41:18.004Z"
   },
   {
     "id": "coach-1",
     "email": "coach@demo.com",
-    "password": "$2b$10$ACrQUwc4lFWkZHuBoQbDlulb6UGGnzxqqVkihb4bPB0xFvEndDKs6",
+    "password": "$2b$10$/n6G5B9NAKiihLq2P22xcuzv1j2aY9bEYNMg8sS.7ySRcBHV06nQS",
     "name": "Mike Chen",
     "role": "coach",
     "phoneNumber": "+1 (555) 333-0001",
     "isApproved": true,
     "dojoId": "dojo-2",
-    "createdAt": "2026-11-10T21:30:56.160Z",
-    "updatedAt": "2026-11-10T21:30:56.160Z"
+    "createdAt": "2026-11-10T21:41:18.004Z",
+    "updatedAt": "2026-11-10T21:41:18.004Z"
   },
   {
     "id": "seller-1",
     "email": "seller@demo.com",
-    "password": "$2b$10$vtPbIsNflSpjjpItQGrxtuSZvgocuvT5F/3TqugeIXMiOPS4aU1gi",
+    "password": "$2b$10$JXbXLFoc0ZCEhOvEoVMJe.4jaii9wDTMMpqQ8KTG.TbcV9GeM2bo.",
     "name": "Emily Martinez",
     "role": "seller",
     "phoneNumber": "+1 (555) 444-0001",
     "isApproved": true,
-    "createdAt": "2026-11-10T21:30:56.160Z",
-    "updatedAt": "2026-11-10T21:30:56.160Z"
+    "createdAt": "2026-11-10T21:41:18.004Z",
+    "updatedAt": "2026-11-10T21:41:18.004Z"
   },
   {
     "id": "player-2",
     "email": "marcus@demo.com",
-    "password": "$2b$10$gIxY7apnthbtvO0IAQYDDeDcebx7DD2aGha3f1Z5/OOp/RAa4fArO",
+    "password": "$2b$10$0GuXLP2yW1nBPeykExPULe7BWE54yHLMfXd9FIlYR5nLkASP8bnfO",
     "name": "Marcus Chen",
     "role": "player",
     "phoneNumber": "+1 (555) 222-0002",
     "isApproved": true,
-    "createdAt": "2026-11-10T21:30:56.160Z",
-    "updatedAt": "2026-11-10T21:30:56.160Z"
+    "createdAt": "2026-11-10T21:41:18.004Z",
+    "updatedAt": "2026-11-10T21:41:18.004Z"
   },
   {
     "id": "player-3",
     "email": "emily.r@demo.com",
-    "password": "$2b$10$4MfWfeSeSJizxpgk3zLFg.sl1SbwftnAsFAw/YFtgPilsx5OfCpR6",
+    "password": "$2b$10$E5PPdawrujyzAHMaE2Zt5.NifCGTnS04kWHhH0RyLH8k7ytwZMqka",
     "name": "Emily Rodriguez",
     "role": "player",
     "phoneNumber": "+1 (555) 222-0003",
     "isApproved": true,
-    "createdAt": "2026-11-10T21:30:56.160Z",
-    "updatedAt": "2026-11-10T21:30:56.160Z"
+    "createdAt": "2026-11-10T21:41:18.004Z",
+    "updatedAt": "2026-11-10T21:41:18.004Z"
   },
   {
     "id": "player-4",
     "email": "takeshi@demo.com",
-    "password": "$2b$10$BpzJIsw1bklyCa5PfubvuuMzYnhddAmu28AMfd5yYSAd29JvFEHzu",
+    "password": "$2b$10$ztWsn0HSzFbsotgXe9ikEOyhQC6Vylk1.XpcGxVrwscXpPSnLbBjO",
     "name": "Takeshi Yamamoto",
     "role": "player",
     "phoneNumber": "+81 (555) 222-0004",
     "isApproved": true,
-    "createdAt": "2026-11-10T21:30:56.160Z",
-    "updatedAt": "2026-11-10T21:30:56.160Z"
+    "createdAt": "2026-11-10T21:41:18.004Z",
+    "updatedAt": "2026-11-10T21:41:18.004Z"
   },
   {
     "id": "player-5",
     "email": "isabella@demo.com",
-    "password": "$2b$10$J5Ifib.0/XgfPIJE/NHtPO4pScgD2iDaQqY4DUBs3VzuiHpaFORh.",
+    "password": "$2b$10$h0iX/AvF9te.eIizvl7u6.ppYt9ZngpsZYnZNj/OeiNZ7TgBp5ce6",
     "name": "Isabella Santos",
     "role": "player",
     "phoneNumber": "+55 (555) 222-0005",
     "isApproved": true,
-    "createdAt": "2026-11-10T21:30:56.160Z",
-    "updatedAt": "2026-11-10T21:30:56.160Z"
+    "createdAt": "2026-11-10T21:41:18.004Z",
+    "updatedAt": "2026-11-10T21:41:18.004Z"
   },
   {
     "id": "player-6",
     "email": "ahmed@demo.com",
-    "password": "$2b$10$t7Pw20DWBuaEhhDDJpMR6.37MxalROTzRenx5AX5mN9FSp4SwFU0y",
+    "password": "$2b$10$9ha3lCJNRhfCkKBnofSske0Fx0pRewc3jx1nuAVZklpy3m4fyHjrK",
     "name": "Ahmed Hassan",
     "role": "player",
     "phoneNumber": "+20 (555) 222-0006",
     "isApproved": true,
-    "createdAt": "2026-11-10T21:30:56.160Z",
-    "updatedAt": "2026-11-10T21:30:56.160Z"
+    "createdAt": "2026-11-10T21:41:18.004Z",
+    "updatedAt": "2026-11-10T21:41:18.004Z"
   },
   {
     "id": "player-7",
     "email": "sophie@demo.com",
-    "password": "$2b$10$Ymnx0P3OzfgNqtKQuW0srO9ZL6Y8d1my6Z7ck5N4272OH276tyEy.",
+    "password": "$2b$10$cjYRoioB5aas4AnnTro7ue2slLPmUjvt4uZx6CTdo4OBTlY.IiLZm",
     "name": "Sophie Martin",
     "role": "player",
     "phoneNumber": "+33 (555) 222-0007",
     "isApproved": true,
-    "createdAt": "2026-11-10T21:30:56.160Z",
-    "updatedAt": "2026-11-10T21:30:56.160Z"
+    "createdAt": "2026-11-10T21:41:18.004Z",
+    "updatedAt": "2026-11-10T21:41:18.004Z"
   },
   {
     "id": "player-8",
     "email": "ryan@demo.com",
-    "password": "$2b$10$GYY9lw/IhQOeoKYTzIvqNudLJ8S54QduXPyirDC0u56erC8mZs3kG",
+    "password": "$2b$10$bzjAUjnBwGXWUSL6WEFqMu5nBhnDiEC9dM3jEUqHcdCokRoDEWhPK",
     "name": "Ryan O'Connor",
     "role": "player",
     "phoneNumber": "+353 (555) 222-0008",
     "isApproved": true,
-    "createdAt": "2026-11-10T21:30:56.160Z",
-    "updatedAt": "2026-11-10T21:30:56.160Z"
+    "createdAt": "2026-11-10T21:41:18.004Z",
+    "updatedAt": "2026-11-10T21:41:18.004Z"
   },
   {
     "id": "player-9",
     "email": "aiko.tanaka@demo.com",
-    "password": "$2b$10$F.i6k4ktH7VFD/9GqtyojOXe30bZsDY5SApTUA4XSD9AJZVXOm6Ma",
+    "password": "$2b$10$K1knXr91jMqTtglc.zBJ5OWHvNW4tCFpaNKl1dugE5Esw0pKZeO2m",
     "name": "Aiko Tanaka",
     "role": "player",
     "phoneNumber": "+1 (555) 222-0009",
     "isApproved": true,
-    "createdAt": "2026-11-10T21:30:56.160Z",
-    "updatedAt": "2026-11-10T21:30:56.160Z"
+    "createdAt": "2026-11-10T21:41:18.004Z",
+    "updatedAt": "2026-11-10T21:41:18.004Z"
   },
   {
     "id": "player-10",
     "email": "jordan.brooks@demo.com",
-    "password": "$2b$10$tdJ/cctg3yDp2QdpmXT1D.XRVI1w0HQ1sxBb5bxjTD6MJOlUCVkge",
+    "password": "$2b$10$lfROzlGYo8cBUokJTNYRgebP.fAeLDWWGnSOpAsnDkdr3cT4CcugO",
     "name": "Jordan Brooks",
     "role": "player",
     "phoneNumber": "+1 (555) 222-0010",
     "isApproved": true,
-    "createdAt": "2026-11-10T21:30:56.160Z",
-    "updatedAt": "2026-11-10T21:30:56.160Z"
+    "createdAt": "2026-11-10T21:41:18.004Z",
+    "updatedAt": "2026-11-10T21:41:18.004Z"
   },
   {
     "id": "player-11",
     "email": "priya.nair@demo.com",
-    "password": "$2b$10$TKUc9kt/R30hxzuT3LHkDO5t5RYnprF1n4f5GxldW9SbLRpIubSne",
+    "password": "$2b$10$VWpe//j7TIUgsmHrvlRUm./CaJg/GHH/ZcBUJD0sSkhs8bGBMsBTm",
     "name": "Priya Nair",
     "role": "player",
     "phoneNumber": "+1 (555) 222-0011",
     "isApproved": true,
-    "createdAt": "2026-11-10T21:30:56.160Z",
-    "updatedAt": "2026-11-10T21:30:56.160Z"
+    "createdAt": "2026-11-10T21:41:18.004Z",
+    "updatedAt": "2026-11-10T21:41:18.004Z"
   },
   {
     "id": "player-12",
     "email": "leo.moretti@demo.com",
-    "password": "$2b$10$l/5P0Z6qiXXn/IOE6ymk9uFv6j.PpcvUt3/lfrgNfhDWrX96O.8te",
+    "password": "$2b$10$F3MPVad.bfHj1Nsx43nHBOMMLfmvAbAHi/j2SyuKGVcdOgLxkSYei",
     "name": "Leo Moretti",
     "role": "player",
     "phoneNumber": "+1 (555) 222-0012",
     "isApproved": true,
-    "createdAt": "2026-11-10T21:30:56.160Z",
-    "updatedAt": "2026-11-10T21:30:56.160Z"
+    "createdAt": "2026-11-10T21:41:18.004Z",
+    "updatedAt": "2026-11-10T21:41:18.004Z"
   },
   {
     "id": "parent-1",
     "email": "parent@demo.com",
-    "password": "$2b$10$2VhjiHFzKSnUw7AuDp0fqe00lIoFAx5fOBpArN0uTK2fgu7neGENe",
+    "password": "$2b$10$VWVul8UmQJ0/SV2tepTGQOSy6iaNWA1Role3Xqybgsf9Qm/WOGcBS",
     "name": "Olivia Carter",
     "role": "parent",
     "phoneNumber": "+1 (555) 555-0001",
@@ -189,53 +189,53 @@
       "student-2"
     ],
     "isApproved": true,
-    "createdAt": "2026-11-10T21:30:56.160Z",
-    "updatedAt": "2026-11-10T21:30:56.160Z"
+    "createdAt": "2026-11-10T21:41:18.004Z",
+    "updatedAt": "2026-11-10T21:41:18.004Z"
   },
   {
     "id": "student-user-1",
     "email": "maya.carter@demo.com",
-    "password": "$2b$10$cM9/DaJmKVSmMxhXKDeQmusw5f5pgJ.PBHmAXSWwYyVKs1nmw8/YK",
+    "password": "$2b$10$MXpgqN4SSLDeI4bJpl2JZOHcwQ0zD6Bg7uftlUmncD74qXaPS437m",
     "name": "Maya Carter",
     "role": "student",
     "phoneNumber": "+1 (555) 555-0002",
     "dojoId": "dojo-1",
     "isApproved": true,
-    "createdAt": "2026-11-10T21:30:56.160Z",
-    "updatedAt": "2026-11-10T21:30:56.160Z"
+    "createdAt": "2026-11-10T21:41:18.004Z",
+    "updatedAt": "2026-11-10T21:41:18.004Z"
   },
   {
     "id": "student-user-2",
     "email": "ethan.carter@demo.com",
-    "password": "$2b$10$rHdy76IaVX.ldsnXA1nUSuyeS5Mxo2ygorkcCwIHpw8P4IqI3ZiNe",
+    "password": "$2b$10$vXauOnn/lQcAA1Os8La28e08NppjgYCVL3Pno5fEfMq./jyfizOFu",
     "name": "Ethan Carter",
     "role": "student",
     "phoneNumber": "+1 (555) 555-0003",
     "dojoId": "dojo-1",
     "isApproved": true,
-    "createdAt": "2026-11-10T21:30:56.160Z",
-    "updatedAt": "2026-11-10T21:30:56.160Z"
+    "createdAt": "2026-11-10T21:41:18.004Z",
+    "updatedAt": "2026-11-10T21:41:18.004Z"
   },
   {
     "id": "referee-1",
     "email": "referee@demo.com",
-    "password": "$2b$10$jXhpNEzdcEpVPViPE56kF.gU2PP8mYCygMfE1Ue./CWGUmTrbiyMO",
+    "password": "$2b$10$fdwVKa2OzkrSbpSDKT4fcOlWJF5228/3Ow7h9vG0fm0kq68SyJXE6",
     "name": "Daniel Brooks",
     "role": "referee",
     "phoneNumber": "+1 (555) 666-0001",
     "isApproved": true,
-    "createdAt": "2026-11-10T21:30:56.160Z",
-    "updatedAt": "2026-11-10T21:30:56.160Z"
+    "createdAt": "2026-11-10T21:41:18.004Z",
+    "updatedAt": "2026-11-10T21:41:18.004Z"
   },
   {
     "id": "judge-1",
     "email": "judge@demo.com",
-    "password": "$2b$10$hJ33cp1fjZOHKQ4L8pJ8iOqhVOfhKwrlSKTDKYuldYc5LEBil1m2W",
+    "password": "$2b$10$22vFrYBt9NDhHfcPn265/OzR.D4lgk7hLF7WfmaNlhDs.D5yYiv8y",
     "name": "Priya Shah",
     "role": "judge",
     "phoneNumber": "+1 (555) 666-0002",
     "isApproved": true,
-    "createdAt": "2026-11-10T21:30:56.160Z",
-    "updatedAt": "2026-11-10T21:30:56.160Z"
+    "createdAt": "2026-11-10T21:41:18.004Z",
+    "updatedAt": "2026-11-10T21:41:18.004Z"
   }
 ]

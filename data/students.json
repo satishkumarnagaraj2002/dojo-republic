@@ -12,8 +12,8 @@
     "parentId": "parent-1",
     "enrollmentDate": "2025-09-08T15:00:00.000Z",
     "isActive": true,
-    "createdAt": "2026-11-10T21:30:56.160Z",
-    "updatedAt": "2026-11-10T21:30:56.160Z"
+    "createdAt": "2026-11-10T21:41:18.004Z",
+    "updatedAt": "2026-11-10T21:41:18.004Z"
   },
   {
     "id": "student-2",
@@ -28,8 +28,8 @@
     "parentId": "parent-1",
     "enrollmentDate": "2025-09-08T15:00:00.000Z",
     "isActive": true,
-    "createdAt": "2026-11-10T21:30:56.160Z",
-    "updatedAt": "2026-11-10T21:30:56.160Z"
+    "createdAt": "2026-11-10T21:41:18.004Z",
+    "updatedAt": "2026-11-10T21:41:18.004Z"
   },
   {
     "id": "student-3",
@@ -42,8 +42,8 @@
     "beltLevel": "Blue Belt",
     "enrollmentDate": "2024-06-17T15:00:00.000Z",
     "isActive": true,
-    "createdAt": "2026-11-10T21:30:56.160Z",
-    "updatedAt": "2026-11-10T21:30:56.160Z"
+    "createdAt": "2026-11-10T21:41:18.004Z",
+    "updatedAt": "2026-11-10T21:41:18.004Z"
   },
   {
     "id": "student-4",
@@ -56,8 +56,8 @@
     "beltLevel": "Orange Belt",
     "enrollmentDate": "2025-01-13T15:00:00.000Z",
     "isActive": true,
-    "createdAt": "2026-11-10T21:30:56.160Z",
-    "updatedAt": "2026-11-10T21:30:56.160Z"
+    "createdAt": "2026-11-10T21:41:18.004Z",
+    "updatedAt": "2026-11-10T21:41:18.004Z"
   },
   {
     "id": "student-5",
@@ -70,8 +70,8 @@
     "beltLevel": "Brown Belt",
     "enrollmentDate": "2023-08-21T15:00:00.000Z",
     "isActive": true,
-    "createdAt": "2026-11-10T21:30:56.160Z",
-    "updatedAt": "2026-11-10T21:30:56.160Z"
+    "createdAt": "2026-11-10T21:41:18.004Z",
+    "updatedAt": "2026-11-10T21:41:18.004Z"
   },
   {
     "id": "student-6",
@@ -84,7 +84,7 @@
     "beltLevel": "Purple Belt",
     "enrollmentDate": "2024-03-04T15:00:00.000Z",
     "isActive": true,
-    "createdAt": "2026-11-10T21:30:56.160Z",
-    "updatedAt": "2026-11-10T21:30:56.160Z"
+    "createdAt": "2026-11-10T21:41:18.004Z",
+    "updatedAt": "2026-11-10T21:41:18.004Z"
   }
 ]

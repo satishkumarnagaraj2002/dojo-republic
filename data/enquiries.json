@@ -9,8 +9,8 @@
     "type": "dojo",
     "status": "in_progress",
     "dojoId": "dojo-1",
-    "createdAt": "2026-11-10T21:30:56.160Z",
-    "updatedAt": "2026-11-10T21:30:56.160Z"
+    "createdAt": "2026-11-10T21:41:18.004Z",
+    "updatedAt": "2026-11-10T21:41:18.004Z"
   },
   {
     "id": "enquiry-demo-2",
@@ -21,7 +21,7 @@
     "message": "Please confirm whether protective equipment is provided at the venue.",
     "type": "tournament",
     "status": "new",
-    "createdAt": "2026-11-10T21:30:56.160Z",
-    "updatedAt": "2026-11-10T21:30:56.160Z"
+    "createdAt": "2026-11-10T21:41:18.004Z",
+    "updatedAt": "2026-11-10T21:41:18.004Z"
   }
 ]

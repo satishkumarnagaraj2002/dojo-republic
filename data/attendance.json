@@ -9,7 +9,7 @@
     "className": "Kids Karate",
     "notes": "",
     "markedBy": "owner-1",
-    "createdAt": "2026-11-10T21:30:56.160Z"
+    "createdAt": "2026-11-10T21:41:18.004Z"
   },
   {
     "id": "attendance-demo-2",
@@ -21,7 +21,7 @@
     "className": "Kids Karate",
     "notes": "",
     "markedBy": "owner-1",
-    "createdAt": "2026-11-10T21:30:56.160Z"
+    "createdAt": "2026-11-10T21:41:18.004Z"
   },
   {
     "id": "attendance-demo-3",
@@ -33,7 +33,7 @@
     "className": "Youth Karate",
     "notes": "Arrived shortly after warm-up.",
     "markedBy": "owner-1",
-    "createdAt": "2026-11-10T21:30:56.160Z"
+    "createdAt": "2026-11-10T21:41:18.004Z"
   },
   {
     "id": "attendance-demo-4",
@@ -45,7 +45,7 @@
     "className": "Karate Basics",
     "notes": "",
     "markedBy": "coach-1",
-    "createdAt": "2026-11-10T21:30:56.160Z"
+    "createdAt": "2026-11-10T21:41:18.004Z"
   },
   {
     "id": "attendance-demo-5",
@@ -57,7 +57,7 @@
     "className": "Advanced Karate",
     "notes": "",
     "markedBy": "coach-1",
-    "createdAt": "2026-11-10T21:30:56.160Z"
+    "createdAt": "2026-11-10T21:41:18.004Z"
   },
   {
     "id": "attendance-demo-6",
@@ -69,6 +69,6 @@
     "className": "Competition Training",
     "notes": "",
     "markedBy": "coach-1",
-    "createdAt": "2026-11-10T21:30:56.160Z"
+    "createdAt": "2026-11-10T21:41:18.004Z"
   }
 ]
